@@ -103,7 +103,7 @@
 						this.status = 0;
 					}
 				case 2:
-					if(text.indexOf("登陆成功")!=-1){	// 寝室网页登陆成功
+					if(text.indexOf("登录成功")!=-1){	// 寝室网页登陆成功
 						this.status = 1;
 					}
 					if(text.indexOf("畅通无限")!=-1){	// 寝室网页退出登陆
